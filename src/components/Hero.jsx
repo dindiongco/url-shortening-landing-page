@@ -2,7 +2,7 @@
 
 export const Hero = () => {
   return (
-    <section className="padding-block-700 column-sm text-center-sm">
+    <section className="padding-block-700 text-center-sm">
       <div className="container">
         <div className="hero">
           <div className="hero-text | mt-500">

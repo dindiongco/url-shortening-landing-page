@@ -1,5 +1,6 @@
 import { Header } from "./components/Header"
 import { Hero } from "./components/Hero"
+import { URLForm } from "./components/URLForm"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header></Header>
       <Hero></Hero>
+      <URLForm></URLForm>
     </>
   )
 }
