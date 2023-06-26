@@ -2,13 +2,21 @@
 
 export const Hero = () => {
   return (
-    <section className="padding-block-700">
+    <section className="padding-block-700 column-sm text-center-sm">
       <div className="container">
-        <h2 className="primary-heading | fs-primary-heading">More than just shorter links</h2>
-        <p>Build your brand’s recognition and get detailed insights 
-          on how your links are performing.</p>
-        <button className="button">Get Started</button>
+        <div className="hero">
+          <div className="hero-text | mt-500">
+            <h2 className="primary-heading">More than just shorter links</h2>
+            <p className="mt-500">Build your brand’s recognition and get detailed insights
+              on how your links are performing.</p>
+            <button className="button | mt-500">Get Started</button>
+          </div>
+          <div className="hero-image">
+            <img src="../src/assets/illustration-working.svg" alt="" />
+          </div>
+        </div>
       </div>
+      
     </section>
   )
 }
