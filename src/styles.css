@@ -370,6 +370,14 @@ p[data-width='wide'] {
     }
 }
 
+/* footer */
+
+.social-icon {
+    width: var(--size-600);
+    aspect-ratio: 1;
+    fill: var(--clr-neutral-100);
+}
+
 /* utility */
 
 .padding-block-700 {
