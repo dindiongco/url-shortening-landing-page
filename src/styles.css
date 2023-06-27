@@ -277,6 +277,7 @@ p[data-width='wide'] {
 
 .gray-bg {
     background: var(--clr-neutral-100);
+    padding-bottom: var(--size-900);
 }
 
 .secondary-heading {
@@ -350,7 +351,24 @@ p[data-width='wide'] {
     }
 }
 
+/* cta */
 
+.cta {
+    background: var(--clr-accent-400);
+    background-image: url('../src/assets/bg-boost-mobile.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.cta h1 {
+    color: white;
+}
+
+@media (min-width: 376px) {
+    .cta {
+        background-image: url('../src/assets/bg-boost-desktop.svg');
+    }
+}
 
 /* utility */
 
