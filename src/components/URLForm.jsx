@@ -17,6 +17,7 @@ export const URLForm = () => {
     }).catch((error) => {
       console.log(error)
     })
+    clear()
   }
 
   function copyURL() {
@@ -24,8 +25,12 @@ export const URLForm = () => {
     setCopied(true)
   }
 
+  function clear() {
+    document.querySelector('.form-control').reset()
+  }
+
   return (
-    <section className='padding-block-700'>
+    <section className='url-form-section | padding-block-700'>
       <div className="container">
         <div className="form-wrapper">
           <form className='form-control' onSubmit={handleSubmit(callAPI)}>
