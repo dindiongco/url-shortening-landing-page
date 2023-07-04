@@ -216,6 +216,10 @@ p[data-width='wide'] {
 
 /* form */
 
+.url-form-section {
+    background: linear-gradient(white 50%, var(--clr-neutral-100) 50%);
+}
+
 .form-wrapper {
     background: var(--clr-accent-400);
     background-image: url('../src/assets/bg-shorten-mobile.svg');
